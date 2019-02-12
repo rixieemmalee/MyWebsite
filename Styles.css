@@ -1,0 +1,53 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  width: inherit;
+  height: 100%;
+}
+
+header >.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+   rgba(0, 0, 0, 0.5)),
+  url("images/Fashion.jpg");
+  height: 45%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+header >h1.Fashion {
+  color: mediumseagreen;
+  text-align: left;
+  position: absolute;
+  transform: translate(-50%,-50%;);
+  top: 50%;
+  left: 20%;
+
+  font-size:56px;}
+
+
+a:link {
+  color: black;
+  background-color: none;
+  text-decoration: none;
+}
+h1.Food {
+  color: darkolivegreen;
+  text-align: left;
+  font-size:56px;
+}
+
+
+  h1.Quotes{
+    color: orange;
+    text-align: left;
+    font-size:56px;}
+
+    nav{
+      margin-top: 30%;
+    }
