@@ -14,9 +14,9 @@ header {
 .header img {
 background-image: url("images/Logo.png")
     background-attachment: fixed;
-    float: center;
-    width: 100px;
-    height: 100px;
+    align-content: center;
+    width: 200px;
+    height: 200px;
       background-repeat: no-repeat;
   ;
 }
@@ -68,6 +68,8 @@ header > .quotes {
 header > .food {
   background-image:
   url("images/Food.jpg");
+  height: 78%;
+
 }
 
 header > .Crafts
