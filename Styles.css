@@ -1,8 +1,8 @@
 
 
 body, html {
-  height: 1600px;
-  width: 1600px;
+
+  width: 100%;
   margin: 0;
 }
 
@@ -88,6 +88,7 @@ header > .food {
   left: 20%;
   font-size:56px;
 }
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -122,4 +123,26 @@ a:link {
   color: black;
   background-color: none;
   text-decoration: none;
+}
+
+/* Grid for Section for outfits */
+
+main {
+  margin: 20px;
+}
+
+#Outfit_Inspiration {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-template-rows: repeat(3, minmax(auto, 1fr));
+}
+#
+
+.box1 {
+  grid-column-start: span 2;
+}
+
+.box2 > img {
+  width: 100%;
 }
