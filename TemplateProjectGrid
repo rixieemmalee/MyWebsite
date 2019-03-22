@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords:" content="keywords">
+    <meta name="description:" content="website to give examples">
+    <meta name="author:" content="Emmalee Rixie">
+    <meta name="viewpoint:" content="width-devicee-width, initial- 1.0">
+    <meta name="stylesheet:" content="CSSTemplate">
+
+    <title>Template Example</title>
+    <link rel="stylesheet" href="ProjectGrid.css">
+  </head>
+  <body>
+    <header class="zone green">
+<nav>
+  <ul class="main-nav">
+      <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Gallery</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+    </header>
+  <div class="zone red flexContainer">
+
+
+  </div>
+  <div class="zone blue gold wrappper">
+    <div class="box red">
+              <div class="box red">
+                <img src="images/quotes2.png" alt="">
+              <div class="box red">
+              <div class="box red">
+              <div class="box red">
+              <div class="box red">
+              <div class="box red">
+
+
+    </div>
+
+
+  </div>
+    <footer class="zone orage"></footer>
+  </body>
+</html>
